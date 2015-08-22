@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3793EECC1B88D5B90055A9D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3793EECB1B88D5B90055A9D1 /* AppDelegate.swift */; };
+		3793EECF1B88D5B90055A9D1 /* Amlantis_IDE.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3793EECD1B88D5B90055A9D1 /* Amlantis_IDE.xcdatamodeld */; };
+		3793EED11B88D5B90055A9D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3793EED01B88D5B90055A9D1 /* Images.xcassets */; };
+		3793EED41B88D5B90055A9D1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3793EED21B88D5B90055A9D1 /* MainMenu.xib */; };
+		3793EEE01B88D5B90055A9D1 /* Amlantis_IDE_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3793EEDF1B88D5B90055A9D1 /* Amlantis_IDE_Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3793EEDA1B88D5B90055A9D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3793EEBE1B88D5B90055A9D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3793EEC51B88D5B90055A9D1;
+			remoteInfo = "Amlantis IDE";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3793EEC61B88D5B90055A9D1 /* Amlantis IDE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amlantis IDE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3793EECA1B88D5B90055A9D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3793EECB1B88D5B90055A9D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3793EECE1B88D5B90055A9D1 /* Amlantis_IDE.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Amlantis_IDE.xcdatamodel; sourceTree = "<group>"; };
+		3793EED01B88D5B90055A9D1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3793EED31B88D5B90055A9D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3793EED91B88D5B90055A9D1 /* Amlantis IDE Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amlantis IDE Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3793EEDE1B88D5B90055A9D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3793EEDF1B88D5B90055A9D1 /* Amlantis_IDE_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amlantis_IDE_Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3793EEC31B88D5B90055A9D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3793EED61B88D5B90055A9D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3793EEBD1B88D5B90055A9D1 = {
+			isa = PBXGroup;
+			children = (
+				3793EEC81B88D5B90055A9D1 /* Amlantis IDE */,
+				3793EEDC1B88D5B90055A9D1 /* Amlantis IDE Tests */,
+				3793EEC71B88D5B90055A9D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3793EEC71B88D5B90055A9D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3793EEC61B88D5B90055A9D1 /* Amlantis IDE.app */,
+				3793EED91B88D5B90055A9D1 /* Amlantis IDE Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3793EEC81B88D5B90055A9D1 /* Amlantis IDE */ = {
+			isa = PBXGroup;
+			children = (
+				3793EECB1B88D5B90055A9D1 /* AppDelegate.swift */,
+				3793EED01B88D5B90055A9D1 /* Images.xcassets */,
+				3793EED21B88D5B90055A9D1 /* MainMenu.xib */,
+				3793EECD1B88D5B90055A9D1 /* Amlantis_IDE.xcdatamodeld */,
+				3793EEC91B88D5B90055A9D1 /* Supporting Files */,
+			);
+			path = "Amlantis IDE";
+			sourceTree = "<group>";
+		};
+		3793EEC91B88D5B90055A9D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3793EECA1B88D5B90055A9D1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3793EEDC1B88D5B90055A9D1 /* Amlantis IDE Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3793EEDF1B88D5B90055A9D1 /* Amlantis_IDE_Tests.swift */,
+				3793EEDD1B88D5B90055A9D1 /* Supporting Files */,
+			);
+			path = "Amlantis IDE Tests";
+			sourceTree = "<group>";
+		};
+		3793EEDD1B88D5B90055A9D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3793EEDE1B88D5B90055A9D1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3793EEC51B88D5B90055A9D1 /* Amlantis IDE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3793EEE31B88D5B90055A9D1 /* Build configuration list for PBXNativeTarget "Amlantis IDE" */;
+			buildPhases = (
+				3793EEC21B88D5B90055A9D1 /* Sources */,
+				3793EEC31B88D5B90055A9D1 /* Frameworks */,
+				3793EEC41B88D5B90055A9D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Amlantis IDE";
+			productName = "Amlantis IDE";
+			productReference = 3793EEC61B88D5B90055A9D1 /* Amlantis IDE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3793EED81B88D5B90055A9D1 /* Amlantis IDE Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3793EEE61B88D5B90055A9D1 /* Build configuration list for PBXNativeTarget "Amlantis IDE Tests" */;
+			buildPhases = (
+				3793EED51B88D5B90055A9D1 /* Sources */,
+				3793EED61B88D5B90055A9D1 /* Frameworks */,
+				3793EED71B88D5B90055A9D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3793EEDB1B88D5B90055A9D1 /* PBXTargetDependency */,
+			);
+			name = "Amlantis IDE Tests";
+			productName = "Amlantis IDETests";
+			productReference = 3793EED91B88D5B90055A9D1 /* Amlantis IDE Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3793EEBE1B88D5B90055A9D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "amlantis-lang";
+				TargetAttributes = {
+					3793EEC51B88D5B90055A9D1 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 78CC6VBYYV;
+					};
+					3793EED81B88D5B90055A9D1 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 3793EEC51B88D5B90055A9D1;
+					};
+				};
+			};
+			buildConfigurationList = 3793EEC11B88D5B90055A9D1 /* Build configuration list for PBXProject "Amlantis IDE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3793EEBD1B88D5B90055A9D1;
+			productRefGroup = 3793EEC71B88D5B90055A9D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3793EEC51B88D5B90055A9D1 /* Amlantis IDE */,
+				3793EED81B88D5B90055A9D1 /* Amlantis IDE Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3793EEC41B88D5B90055A9D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3793EED11B88D5B90055A9D1 /* Images.xcassets in Resources */,
+				3793EED41B88D5B90055A9D1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3793EED71B88D5B90055A9D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3793EEC21B88D5B90055A9D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3793EECC1B88D5B90055A9D1 /* AppDelegate.swift in Sources */,
+				3793EECF1B88D5B90055A9D1 /* Amlantis_IDE.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3793EED51B88D5B90055A9D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3793EEE01B88D5B90055A9D1 /* Amlantis_IDE_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3793EEDB1B88D5B90055A9D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3793EEC51B88D5B90055A9D1 /* Amlantis IDE */;
+			targetProxy = 3793EEDA1B88D5B90055A9D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3793EED21B88D5B90055A9D1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3793EED31B88D5B90055A9D1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3793EEE11B88D5B90055A9D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3793EEE21B88D5B90055A9D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3793EEE41B88D5B90055A9D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Amlantis IDE/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3793EEE51B88D5B90055A9D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Amlantis IDE/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3793EEE71B88D5B90055A9D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Amlantis IDE Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amlantis IDE.app/Contents/MacOS/Amlantis IDE";
+			};
+			name = Debug;
+		};
+		3793EEE81B88D5B90055A9D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Amlantis IDE Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amlantis IDE.app/Contents/MacOS/Amlantis IDE";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3793EEC11B88D5B90055A9D1 /* Build configuration list for PBXProject "Amlantis IDE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3793EEE11B88D5B90055A9D1 /* Debug */,
+				3793EEE21B88D5B90055A9D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3793EEE31B88D5B90055A9D1 /* Build configuration list for PBXNativeTarget "Amlantis IDE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3793EEE41B88D5B90055A9D1 /* Debug */,
+				3793EEE51B88D5B90055A9D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3793EEE61B88D5B90055A9D1 /* Build configuration list for PBXNativeTarget "Amlantis IDE Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3793EEE71B88D5B90055A9D1 /* Debug */,
+				3793EEE81B88D5B90055A9D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3793EECD1B88D5B90055A9D1 /* Amlantis_IDE.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3793EECE1B88D5B90055A9D1 /* Amlantis_IDE.xcdatamodel */,
+			);
+			currentVersion = 3793EECE1B88D5B90055A9D1 /* Amlantis_IDE.xcdatamodel */;
+			path = Amlantis_IDE.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3793EEBE1B88D5B90055A9D1 /* Project object */;
+}
